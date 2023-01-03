@@ -1,8 +1,13 @@
 {
   "name": "yew-framework-snippets",
-  "displayName": "yew snippets",
-  "description": "plantillas listas para facilitar la productividad del framework",
-  "version": "0.0.1",
+  "displayName": "Yew Snippets",
+  "description": "Snippets for Rust Web Framework",
+  "version": "0.1.1",
+  "publisher": "MarioRocha",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariorocha2308/yew-snippets"
+  },
   "engines": {
     "vscode": "^1.74.0"
   },

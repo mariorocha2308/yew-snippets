@@ -1,11 +1,13 @@
-## Features
+# Features
 
-Rust Web Framework Yew - Snippets.
+- Rust Web Framework Yew - Snippets.
 
-Estos Snippets han sido creados para fortalecer la productividad al usar este Framework 
+I still learning to use this framework so keep calm if there aren't enough snippets.
 
 ```
-seguiré haciendo actualizaciones a esta extensión, espero tener comentarios para mejorar y que les sea de utilidad
+I will upgrade this extension with more content.
+
+Leave your feedback if you want to add other snippet.
 ```
 
 ## Snippets
