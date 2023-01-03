@@ -1,0 +1,90 @@
+{
+  // DECLARATION OF SNIPPETS FOR FRAMEWORK
+
+  "Yew Function Component": {
+    "prefix": "fnct",
+    "body": [
+      "use yew::prelude::*;",
+      "",
+      "#[function_component($0)]",
+      "pub fn $1() -> Html {",
+      "",
+      "  html! {",
+      "    <div class={classes!(\"\")}></div>",
+      "  }",
+      "}"
+    ],
+    "description": "Create a simple functional component"
+  },
+  "Yew Import Modules Path": {
+    "prefix": "ptmod",
+    "body": [
+      "#[path = \"$1\"] mod $0;"
+    ],
+    "description": "Create an import based in path"
+  },
+  "Yew Function Component With Props" : {
+    "prefix": "fnctprp",
+    "body": [
+      "use yew::prelude::*;",
+      "",
+      "#[derive(Properties, PartialEq)]",
+      "pub struct $1Props {}",
+      "",
+      "#[function_component($0)]",
+      "pub fn $2(props: &$1Props) -> Html {",
+      "",
+      "  html! {",
+      "    <div class={classes!(\"\")}></div>",
+      "  }",
+      "}"
+    ],
+    "description": "Create a functional component with props"
+  },
+  "Yew Struct Component" : {
+    "prefix": "stct",
+    "body": [
+      "use yew::prelude::*;",
+      "",
+      "pub struct $1 {};",
+      "",
+      "pub enum Msg {}",
+      "",
+      "impl Component for $1 {",
+      "    type Message = Msg;",
+      "    type Properties = ();",
+      "",
+      "    fn create(ctx: &Context<Self>) -> Self {",
+      "        Self {}",
+      "    }",
+      "",
+      "    fn view(&self, ctx: &Context<Self>) -> Html {",
+      "        html! {",
+      "          <div class={classes!(\"\")}></div>",
+      "        }",
+      "    }",
+      "}"
+    ],
+    "description": "Create a struct component"
+  },
+  "Yew Routing Template" : {
+    "prefix": "rtng",
+    "body": [
+      "use yew::prelude::*;",
+      "use yew_router::prelude::*;",
+      "",
+      "#[derive(Clone, Routable, PartialEq)]",
+      "pub enum Route {",
+      "  #[at(\"/\")] Home",
+      "}",
+      "",
+      "pub fn $1(routes: Route) -> Html {",
+      "  match routes {",
+      "    Route::Home => html! {}",
+      "  }",
+      "}"
+    ],
+    "description": "Create a basic routing config"
+  },
+
+}
