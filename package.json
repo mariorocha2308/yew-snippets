@@ -2,7 +2,7 @@
   "name": "yew-framework-snippets",
   "displayName": "Yew Snippets",
   "description": "Snippets for Rust Web Framework",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "publisher": "MarioRocha",
   "repository": {
     "type": "git",
