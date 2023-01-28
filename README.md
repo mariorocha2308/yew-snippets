@@ -19,3 +19,7 @@ Leave your feedback if you want to add other snippet.
 | `fnctprp`  | Functional Component With Props               |
 | `stcp`     | Struc Component                               |
 | `rtng`     | Basic Template For Routing                    |
+| `hookuef`  | use_effect Hook                               |
+| `cbfn`     | Callback function                             |
+| `at`       | Sintax at                                     |
+| `derive`   | Sintax derive                                 |

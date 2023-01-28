@@ -86,5 +86,35 @@
     ],
     "description": "Create a basic routing config"
   },
+  "Yew Hook Effect" : {
+    "prefix": "hookuef",
+    "body": [
+      "use_effect(|| {$0})"
+    ],
+    "description": "Create use_effect hook"
+  },
+  "Yew Callback function" : {
+    "prefix": "cbfn",
+    "body": [
+      "let $1 = {",
+      "  Callback::from(move |_| {$0})",
+      "}"
+    ],
+    "description": "Create a callback function"
+  },
+  "Marker at" : {
+    "prefix": "at",
+    "body": [
+      "#[at(\"$1\")] $0"
+    ],
+    "description": "Create a callback function"
+  },
+  "Marker derive" : {
+    "prefix": "derive",
+    "body": [
+      "#[derive($1)]"
+    ],
+    "description": "Create a callback function"
+  },
 
 }
